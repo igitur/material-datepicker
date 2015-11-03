@@ -47,7 +47,7 @@ $.fn.datepicker = function (options) {
 				picker.addClass('hide');
 				$(field).trigger(pickercloseKey);
 			}
-		}, 10);
+		}, 200);
 
 	});
 
@@ -56,7 +56,7 @@ $.fn.datepicker = function (options) {
 			if (!($(field).is(":focus"))) {
 				picker.addClass('hide');
 			}
-		}, 10);
+		}, 200);
 	});
 
 	// setup picker position in relation to the field
